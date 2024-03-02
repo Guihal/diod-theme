@@ -1,0 +1,9 @@
+{shop_url}
+
+Здравствуйте, {firstname} {lastname},
+
+Ваш гостевой аккаунт в интернет-магазине {shop_name} переведен в клиентский.
+
+E-mail: {email}
+
+[{shop_name}]({shop_url})

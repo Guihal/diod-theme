@@ -1,0 +1,14 @@
+{shop_url}
+
+Здравствуйте, {firstname} {lastname},
+
+Клиентская служба - Обсуждение передано
+
+{employee} хочет передать это обсуждение Вам.
+
+{employee} добавил {comment}
+
+История переписки: {messages}
+
+[{shop_name}]({shop_url})
+

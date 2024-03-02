@@ -1,0 +1,291 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+	
+	#header .header-top .container{
+		padding: 0 15px;
+	}
+	.laberSpecialProducts{
+		background: #fff;
+		padding: 10px;
+	}
+	.ipadProFull{
+		width:100%;
+	}
+	.block_newsletter form input[type="email"]{
+		margin-bottom:15px;
+	}
+	.laberFooter-bottom .container{
+		padding: 30px 15px;
+	}
+	.laberthemes:hover .owl-buttons .owl-prev{left:0;}
+	.laberthemes:hover .owl-buttons .owl-next{right:0;}
+	.mypresta_scrollup.open{bottom: 90px;}
+}
+@media only screen and (min-width : 768px) and (max-width : 991px){
+	#header .header-top .top-logo{text-align: center;}
+	.laberFooter-bottom .container{padding: 30px 15px;}
+	.laberthemes:hover .owl-buttons .owl-prev{left:0;}
+	.laberthemes:hover .owl-buttons .owl-next{right:0;}
+	.mypresta_scrollup.open{bottom: 90px;}
+	.laberSpecialProducts{
+		padding: 10px;
+	}	
+	/*  */
+	#laber-products-top .products-selection{
+		width:100%;
+		padding-top: 15px;
+	}
+	.laberProductList .actions .laberCart {
+		float: left;
+		display: inline;
+		min-width: 212px;
+		margin-bottom: 10px;
+	}
+	.block-contact {
+		padding-left: 0;
+	}
+	#laberSocialBlock,
+	.block_newsletter form{margin-bottom: 30px;}
+	.LaberAccordion-category .sub_category{
+		position: absolute;
+		top: 0;
+		left: 40px;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		line-height: 50px;
+		display: block !important;
+	}
+	.laberProductGrid .tab_cates{
+		display:none;
+		top: 50px;
+		border: 1px solid #ccc;
+		z-index: 999;
+		background: #fff;
+		left: 0;
+		right: 0;	
+	}
+	.laberProductGrid .tab_cates.Open{display:block;}
+	.laberProductGrid .tab_cates li{
+		display: block;
+		float: none;
+		width: 100%;
+	}
+}
+@media only screen and (max-width : 767px){
+	
+	#header .header-nav{max-height: inherit;background-color:#fff;}
+	#header .header-top{
+		padding: 0;
+	}
+	.footer-header{
+		text-align:center;
+	}
+	.footer-header .center-mobile{
+		display:inline-block;
+	}
+	#mobile_top_menu_wrapper{
+		padding:0;
+	}
+	.laberSpecialProducts{background: #fff;border:none;}
+	.laberStatic.displayGrid{
+		grid-template-columns: repeat(3,1fr);
+		grid-template-rows: repeat(2,1fr);
+	}
+	.laberthemes:hover .owl-buttons .owl-prev{left:0;}
+	.laberthemes:hover .owl-buttons .owl-next{right:0;}
+	.mypresta_scrollup.open{display:none;}
+	.laberFooter-center{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.block_newsletter {
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+	.links .title{
+		padding: 0;
+		border-bottom: 1px solid #ebebeb;
+		position: relative;
+	}
+	.links .title span.h3{
+		line-height: 40px;
+		display: block;
+		font-size: 14px;
+		padding-left: 40px;
+		font-weight: 500;
+		color: #fff;
+		margin: 0;
+	}
+	.links .title .float-xs-right{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.links .title .float-xs-right .material-icons{
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.links .collapse.in{
+		padding: 15px 0;
+	}
+	.laberFooter-bottom{
+		padding-bottom:15px;
+	}
+	.laberFooter-bottom .container{
+		padding: 0 15px;
+		border:none;
+	}
+	#laberSocialBlock{
+		position: relative;
+	}
+	.copyright{
+		text-align:center;
+	}
+	#header .header-nav .blockcart{
+		height: auto;
+		padding: 0;
+		margin-left: 0;
+	}
+	#header .laber-cart a span.icon .icon_cart{
+		margin-left:5px;
+		height: 40px;
+		line-height: 40px;
+	}
+	#header .laber-cart a.cart{
+		height: 40px;
+		line-height: 40px;
+		padding: 0;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#header .header-nav .user-info{
+		margin: 0;
+	}
+	.laberUserInfo .laber-user-info{
+		top: 50px;
+		left: -100%;
+	}
+	.laberSetting{
+		padding-right: 15px;
+	}
+	#header .laberwishtlistTop a.wishtlist_top .cart-wishlist-number,
+	#header .laber-cart a .cart-products-count{top: 0px;right: 20px;}
+	.laberUserInfo .laberUser p.nameuser .icon_user{margin-right: 5px;}
+	
+	#header .header-nav .top-logo {
+		padding-top: 15px;
+		border-top: 1px solid #e6e6e6;
+		padding-bottom: 15px;
+		text-align: center;
+	}
+	#header .header-nav .top-logo .h1,
+	#header .header-nav .top-logo h1{
+		display:inline-block;
+		margin:0;
+	}
+	#header .header-nav #menu-icon{
+		margin: 0 15px;
+	}
+	.laberActions{
+		opacity: 1;
+		position: static;
+		box-shadow: 0 0 0;
+		border: none;
+		padding: 15px 0 0;
+	}
+	.laberProductGrid .laberQuickview{
+		opacity: 1;
+		bottom:0;
+	}
+	.block-contact{padding:0;}
+	.laberFooter-center .block_newsletter,
+	.laberFooter-center .block-contact{
+		margin-bottom: 0;
+		border:none;
+	}
+	/*  */
+	.block-category h1.h1{
+		padding-top: 15px;
+		margin-bottom: 15px;
+	}
+	#category #left-column,
+	#category #content-wrapper {
+		width: 100%;
+		padding: 0 15px !important;
+	}
+	#laber-products-top .products-selection{
+		width: 100%;
+		padding-top: 15px;
+	}
+	.products-sort-order .dropdown-menu{
+		left: 15px;
+		right: inherit;
+	}
+	#category #search_filter_toggler{
+		padding: 0 15px;
+		min-width: auto;
+		line-height: 35px;
+	}
+	#products .laberProducts.laberProductGrid{
+		display:block;
+	}	
+	#products .laberProducts.laberProductList,
+	#laber-products-top .laberGridList {
+		display: none;
+	}
+	#category #left-column #search_filters .facet{
+		margin-bottom: 0;
+	}
+	.laberUserInfo .laberUser p.nameuser{line-height: 50px;}
+	/*  */
+	.laberProduct .images-container{
+		margin-bottom: 30px;
+	}
+	.laberSpecialProducts .laber-product-description{padding: 20px;}
+	.laberProductGrid .item .laber-product-description{padding: 10px;}
+	.laberSpecialProducts .laber-product-description{padding: 0 !important;}
+	
+	.laberProductGrid .tab_cates{
+		display:none;
+		top: 50px;
+		border: 1px solid #ccc;
+		z-index: 999;
+		background: #fff;
+		left: 0;
+		right: 0;	
+	}
+	.laberProductGrid .tab_cates.Open{display:block;}
+	.laberProductGrid .tab_cates li{
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	.LaberAccordion-category .sub_category{
+		position: absolute;
+		top: 0;
+		left: 40px;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		line-height: 50px;
+	}
+	.payment{text-align:center;}
+	#left-column .laberColumn,
+	.laberStatic,
+	.laberthemes {padding:0;}
+}
+@media only screen and (max-width : 480px){
+	.product-images > li.thumb-container > .thumb{
+		width: 84px;
+	}
+	.scroll-box-arrows i{
+		height: 84px;
+		line-height: 84px;
+	}
+	#product .laberTabs .nav-tabs .nav-link{padding: 0 5px;}
+}
